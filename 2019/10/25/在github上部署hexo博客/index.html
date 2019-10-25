@@ -5,14 +5,34 @@
   
 
   
-  <title>Hexo</title>
+  <title>在github上部署hexo博客 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;index.html">
+  <meta name="description" content="需要安装的工具：Git，Node.js 右键打开git 全局安装hexo 在想要安装的文件夹下打开git，执行hexo init 安装依赖 启动服务 访问localhost:4000,显示以下内容即成功 注册github账号 创建仓库【名字后边应跟上.github.io】 配置ssh key，连续三次回车，会生成密钥在本地 打开复制的内容 再打开你的github设置，把刚才复制的内容放进去，标题">
+<meta property="og:type" content="article">
+<meta property="og:title" content="在github上部署hexo博客">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;10&#x2F;25&#x2F;%E5%9C%A8github%E4%B8%8A%E9%83%A8%E7%BD%B2hexo%E5%8D%9A%E5%AE%A2&#x2F;index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="需要安装的工具：Git，Node.js 右键打开git 全局安装hexo 在想要安装的文件夹下打开git，执行hexo init 安装依赖 启动服务 访问localhost:4000,显示以下内容即成功 注册github账号 创建仓库【名字后边应跟上.github.io】 配置ssh key，连续三次回车，会生成密钥在本地 打开复制的内容 再打开你的github设置，把刚才复制的内容放进去，标题">
 <meta property="og:locale" content="en">
+<meta property="og:image" content="https:&#x2F;&#x2F;uploader.shimo.im&#x2F;f&#x2F;AqIL04k8YgAjh17G.png!thumbnail">
+<meta property="og:image" content="https:&#x2F;&#x2F;uploader.shimo.im&#x2F;f&#x2F;UvdRAqw9sPAeeSDt.png!thumbnail">
+<meta property="og:image" content="https:&#x2F;&#x2F;uploader.shimo.im&#x2F;f&#x2F;Rf3f0q3dNLAQabwJ.png!thumbnail">
+<meta property="og:image" content="https:&#x2F;&#x2F;uploader.shimo.im&#x2F;f&#x2F;HVujCpihZzorEA3a.png!thumbnail">
+<meta property="og:image" content="https:&#x2F;&#x2F;uploader.shimo.im&#x2F;f&#x2F;7ClUgSqMVTQhX5qY.png!thumbnail">
+<meta property="og:image" content="https:&#x2F;&#x2F;uploader.shimo.im&#x2F;f&#x2F;g5vb0Ml9RN8Ze9x0.png!thumbnail">
+<meta property="og:image" content="https:&#x2F;&#x2F;uploader.shimo.im&#x2F;f&#x2F;tHy2Ldjxik8lCIVW.png!thumbnail">
+<meta property="og:image" content="https:&#x2F;&#x2F;uploader.shimo.im&#x2F;f&#x2F;0UqbqigYY5EbviDQ.png!thumbnail">
+<meta property="og:image" content="https:&#x2F;&#x2F;uploader.shimo.im&#x2F;f&#x2F;duWX3uH7KQoXj2Q8.png!thumbnail">
+<meta property="og:image" content="https:&#x2F;&#x2F;uploader.shimo.im&#x2F;f&#x2F;aKzfhIA5HuEh9fx2.png!thumbnail">
+<meta property="og:image" content="https:&#x2F;&#x2F;uploader.shimo.im&#x2F;f&#x2F;hYX20RjOd74U5dqn.png!thumbnail">
+<meta property="og:image" content="https:&#x2F;&#x2F;uploader.shimo.im&#x2F;f&#x2F;xJvJsT9sruUyN5f8.png!thumbnail">
+<meta property="og:image" content="https:&#x2F;&#x2F;uploader.shimo.im&#x2F;f&#x2F;fGFzrV2TvykdnBJL.png!thumbnail">
+<meta property="og:image" content="https:&#x2F;&#x2F;uploader.shimo.im&#x2F;f&#x2F;hHoddEa2dNU6uRSi.png!thumbnail">
+<meta property="og:image" content="https:&#x2F;&#x2F;uploader.shimo.im&#x2F;f&#x2F;s8oQ7ydn4UMDmcWH.png!thumbnail">
+<meta property="og:image" content="https:&#x2F;&#x2F;uploader.shimo.im&#x2F;f&#x2F;cxZJiBHAgi4lEbCS.png!thumbnail">
+<meta property="og:updated_time" content="2019-10-25T10:23:51.779Z">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;uploader.shimo.im&#x2F;f&#x2F;AqIL04k8YgAjh17G.png!thumbnail">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -59,9 +79,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-在github上部署hexo博客" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-在github上部署hexo博客" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/10/25/%E5%9C%A8github%E4%B8%8A%E9%83%A8%E7%BD%B2hexo%E5%8D%9A%E5%AE%A2/" class="article-date">
   <time datetime="2019-10-25T10:24:55.704Z" itemprop="datePublished">2019-10-25</time>
@@ -74,8 +92,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/10/25/%E5%9C%A8github%E4%B8%8A%E9%83%A8%E7%BD%B2hexo%E5%8D%9A%E5%AE%A2/">在github上部署hexo博客</a>
+    <h1 class="article-title" itemprop="name">
+      在github上部署hexo博客
     </h1>
   
 
@@ -114,60 +132,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/10/25/hello-world/" class="article-date">
-  <time datetime="2019-10-25T08:36:31.292Z" itemprop="datePublished">2019-10-25</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/10/25/hello-world/">Hello World</a>
-    </h1>
+    <a href="/2019/10/25/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/10/25/hello-world/" data-id="ck25zq2sn0000nov77y6pfdu2" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-  
-
 
 </section>
         
